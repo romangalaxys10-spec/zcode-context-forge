@@ -1,0 +1,13 @@
+{
+  "name": "context-forge-marketplace",
+  "plugins": [
+    {
+      "name": "context-forge",
+      "source": "./",
+      "version": "0.1.0",
+      "description": "Session hygiene for long builds. HANDOFF compacts the session into a dated brief under .zcode/handoffs/ (goal, decisions with reasons, invariants, file map, current state, next steps, open questions) so a fresh session resumes without quality loss; CONVENTIONS merges code-derived project rules into AGENTS.md with file:line evidence; REFRESH updates an existing brief. Every claim carries a pointer; nothing is invented.",
+      "displayName": "Context Forge",
+      "category": "developer-tools"
+    }
+  ]
+}

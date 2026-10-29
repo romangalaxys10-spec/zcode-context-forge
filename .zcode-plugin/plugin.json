@@ -1,0 +1,8 @@
+{
+  "name": "context-forge",
+  "version": "0.1.0",
+  "description": "Session hygiene for long builds. HANDOFF compacts the current session into a dated handoff brief (goal, decisions with reasons, invariants, touched-file map, current state, next steps, open questions) saved to .zcode/handoffs/ so a fresh session resumes without quality loss. CONVENTIONS derives project rules from the actual codebase and merges them into AGENTS.md, each rule marked with its file:line evidence. REFRESH updates an existing handoff after more work. Briefs are facts extracted from the session and code, never invented; every claim carries a pointer.",
+  "author": { "name": "Roman's zcode agent" },
+  "skills": "./skills",
+  "commands": "./commands"
+}
